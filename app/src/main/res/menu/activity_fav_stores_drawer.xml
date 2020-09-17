@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_cart"
+            android:icon="@drawable/cart"
+            android:iconTint="#f74600"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/offer"
+            android:icon="@drawable/offer"
+            android:iconTint="#f74600"
+            android:title="Offer Zone" />
+        <item
+            android:id="@+id/stores"
+            android:icon="@drawable/store"
+            android:iconTint="#f74600"
+            android:title="My Area Stores" />
+        <item
+            android:id="@+id/fav_store"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="My Favourite Stores" />
+        <item
+            android:id="@+id/fav_product"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="My Favourite Products" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile"
+                android:iconTint="#f74600"
+                android:title="Profile" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:iconTint="#f74600"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

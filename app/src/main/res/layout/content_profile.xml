@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".profile"
+    android:background="#FF00EAFF"
+    tools:showIn="@layout/app_bar_profile">
+
+    <RelativeLayout
+        android:layout_width="314dp"
+        android:layout_height="367dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:background="#FF303736"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="173dp">
+
+
+        <TextView
+            android:id="@+id/etName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="132dp"
+            android:text="Dhaval Rank"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="155dp"
+            android:layout_marginStart="20dp"
+            android:text="Contact : -"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/phone3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView9"
+            android:layout_marginStart="103dp"
+            android:text="7069936106"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_marginBottom="120dp"
+            android:text="Pincode : -"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/pincode3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/phone3"
+            android:layout_alignTop="@+id/textView11"
+            android:text="392001"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_marginBottom="81dp"
+            android:text="City : -"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/etcity3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/phone3"
+            android:layout_alignTop="@+id/textView13"
+            android:text="Bharuch"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_marginBottom="47dp"
+            android:text="Area : -"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/etArea3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/phone3"
+            android:layout_alignTop="@+id/textView15"
+            android:text="Bholav"
+            android:textColor="@color/colorAccent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="115dp"
+            android:layout_height="121dp"
+            android:layout_above="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-132dp"
+            app:srcCompat="@drawable/cart"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="38dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="#FF403C3C"
+            app:srcCompat="@drawable/edit" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
